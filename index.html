@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bienvenido Pirulo</title>
+    <link rel="stylesheet" href="css/mPrueba.css">
+
+<style>
+.d-flex{display: flex
+;justify-content: space-between;align-items: center;}
+    header{
+        color: black;
+        padding: 10px;
+        text-align: center;
+    }
+    body{
+        color:black!important
+    }
+.listaCategorias{
+    
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
+        list-style: none;
+        gap: 10px;
+        padding: 10px;
+        margin: 0;
+        overflow-x: auto;
+    }
+    .itemCat{
+        display: flex; flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        flex: 1 0 150px;
+        box-shadow: 0 0 5px rgba(0, 0, 0, 0.747);
+        padding: .25em;
+        text-align: center;
+    }
+</style>
+
+</head>
+<body>
+    <header class="d-flex">
+        <div class="menuPerfil">
+            <button>🎆</button>
+            <span class="userName">Pirulo</span>
+            </div>
+
+        <div class="carrito">🛒</div>
+    </header>
+
+    <nav class="categorias">
+        <ul class="listaCategorias">
+            <li class="itemCat"><div class="icono">🍔</div>
+                Hamburguesas</li>
+                </li> 
+            <li class="itemCat"><div class="icono">🍕</div>
+                Pizzas</li>
+            <li class="itemCat"><div class="icono">🍣</div>
+                Sushi</li>    
+            <li class="itemCat"><div class="icono">🍰</div>
+                Postres</li>
+            <li class="itemCat"><div class="icono">🍹</div>
+                Bebidas</li>    
+            
+        </ul>
+    </nav>
+
+</body>
+</html>
